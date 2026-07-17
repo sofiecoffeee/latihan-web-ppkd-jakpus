@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir Pendaftaran</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="foto">Foto Profil:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Tanggal Lahir:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="checkbox-group">
+                <span class="checkbox-title">Hobi:</span>
+                <label class="checkbox-item"><input type="checkbox" value="Menggambar" name="hobi"> Menggambar</label>
+                <label class="checkbox-item"><input type="checkbox" value="Menyanyi" name="hobi"> Menyanyi</label>
+                <label class="checkbox-item"><input type="checkbox" value="Berolahraga" name="hobi"> Berolahraga</label>
+                <label class="checkbox-item"><input type="checkbox" value="Lainnya" name="hobi"> Lainnya</label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Simpan">
+            </div>
+
+        
+        </form>
+</body>
+</html>
